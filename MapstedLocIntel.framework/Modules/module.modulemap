@@ -1,0 +1,4 @@
+framework module MapstedLocIntel {
+  header "MapstedLocIntel-Swift.h"
+  requires objc
+}
