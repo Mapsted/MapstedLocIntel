@@ -207,15 +207,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+/// An object that encapsulates properties and methods inside the Mapsted Location Intelligence SDK
 SWIFT_CLASS("_TtC15MapstedLocIntel8LocIntel")
 @interface LocIntel : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LocIntel * _Nonnull shared;)
-+ (LocIntel * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
@@ -233,19 +230,13 @@ SWIFT_CLASS_NAMED("Location")
 @property (nonatomic, copy) NSDate * _Nullable timestamp;
 @end
 
-
-SWIFT_CLASS("_TtC15MapstedLocIntel19LocationDataManager")
-@interface LocationDataManager : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LocationDataManager * _Nonnull shared;)
-+ (LocationDataManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSCoder;
 
 SWIFT_CLASS("_TtC15MapstedLocIntel4User")
 @interface User : NSObject <NSCoding>
+/// :nodoc:
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+/// :nodoc:
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
