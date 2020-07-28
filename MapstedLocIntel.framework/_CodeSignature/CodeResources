@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MapstedLocIntel-Swift.h</key>
 		<data>
-		e0A5PW1oxHc72snPko52Go3juHY=
+		nVxkbHuV/lw8aCaHjHAvgacDVKU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8EiYZQ2jdjCbYm5eGHGty7ISclQ=
+		BAGjyro1NdPpHZDVy4/SxSQ8cAA=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		8EiYZQ2jdjCbYm5eGHGty7ISclQ=
+		BAGjyro1NdPpHZDVy4/SxSQ8cAA=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		31Ua6xaF15qt25R3ZW810ornnEI=
+		3NwjTdGJ5Lc/0k49zoZGm630Yo4=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		31Ua6xaF15qt25R3ZW810ornnEI=
+		3NwjTdGJ5Lc/0k49zoZGm630Yo4=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftmodule</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNgFXFDSm7ZoDIHfvBr45EjluPbQL0NMY0hnimNvi18=
+			cbZUNznLck0rfyPvbIfvBZaDoqACtsHqBquQUx6If9w=
 			</data>
 		</dict>
 		<key>Mapsted_LocIntel.momd/Mapsted_LocationIntelligence.mom</key>
@@ -87,21 +87,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			frEV3SWSbdYlG7K+i6Ytd1JOZ2bdWfmjS3Mk96wiFUQ=
+			RldbzQJMpCBiZQjOVP6LFK9cALC576vjPbqFAV7ebnE=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			frEV3SWSbdYlG7K+i6Ytd1JOZ2bdWfmjS3Mk96wiFUQ=
+			RldbzQJMpCBiZQjOVP6LFK9cALC576vjPbqFAV7ebnE=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DIuqd4IPS/bwW9FchAloIclQCijPXV/5Ht64zk82pkA=
+			Tas06nZ1OLfgBC9Dm9N6e28xbaODFW/YAYIzEF4G18Y=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftmodule</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DIuqd4IPS/bwW9FchAloIclQCijPXV/5Ht64zk82pkA=
+			Tas06nZ1OLfgBC9Dm9N6e28xbaODFW/YAYIzEF4G18Y=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftmodule</key>
