@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/MapstedLocIntel-Swift.h</key>
 		<data>
-		nVxkbHuV/lw8aCaHjHAvgacDVKU=
+		ePMb9HzpZI880Dxp+aqIYB47Ljk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YoZXeWtiQs/XlfLc/8nUIW9O7nA=
+		y8gAdV2hL1E9OIaQU2UWH4/tutQ=
 		</data>
 		<key>Mapsted_LocIntel.momd/Mapsted_LocationIntelligence.mom</key>
 		<data>
@@ -24,29 +24,29 @@
 		<data>
 		vJSbEpSXjzH6OollPCSC8KI2DKo=
 		</data>
-		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		7qWVgA6SiYr2CZLxvHMqnFD7dNI=
-		</data>
-		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		7qWVgA6SiYr2CZLxvHMqnFD7dNI=
-		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3NwjTdGJ5Lc/0k49zoZGm630Yo4=
+		Uyd71LbnpPlK+ylPm41X/o/kd84=
+		</data>
+		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		hDndSuQZJc0rRRb6lMpBvNI2cy0=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sNEqalnlOUAIAN3bz7hksAlbxCU=
+		YkHxgqcpZ/HRU+HZzRZ8vyGKiz4=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		3NwjTdGJ5Lc/0k49zoZGm630Yo4=
+		Uyd71LbnpPlK+ylPm41X/o/kd84=
+		</data>
+		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		hDndSuQZJc0rRRb6lMpBvNI2cy0=
 		</data>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		sNEqalnlOUAIAN3bz7hksAlbxCU=
+		YkHxgqcpZ/HRU+HZzRZ8vyGKiz4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cbZUNznLck0rfyPvbIfvBZaDoqACtsHqBquQUx6If9w=
+			/0lOpfrZqkLLTWrs4n6NoGSAuEAzW2hyHCAOQA0IQic=
 			</data>
 		</dict>
 		<key>Mapsted_LocIntel.momd/Mapsted_LocationIntelligence.mom</key>
@@ -83,46 +83,46 @@
 			xm/RRJNG8BjIOzeVnhxPQ4YWYA7jYPZkxRBsvsunjGQ=
 			</data>
 		</dict>
-		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/UigvP+Si2nZ3YtPuIvaqeVC7stKiKY38bJ4UOXNF4k=
-			</data>
-		</dict>
-		<key>Modules/MapstedLocIntel.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/UigvP+Si2nZ3YtPuIvaqeVC7stKiKY38bJ4UOXNF4k=
-			</data>
-		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tas06nZ1OLfgBC9Dm9N6e28xbaODFW/YAYIzEF4G18Y=
+			vs56iiqPagMyd6L+NpWKF7aAAmKqm3PVlw80xScIe0o=
+			</data>
+		</dict>
+		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C8sEDUsFwnzoLrJiyXp4N/fLRnYTG70bApvJoqzLGIk=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bLZpmdGuTAnt1f0iEq+9xuN1FibiWCGpCWoLuJu9QF8=
+			giENLRU3ckDwUPnbItq4H4WHGxdMQae9xl6kdefngds=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tas06nZ1OLfgBC9Dm9N6e28xbaODFW/YAYIzEF4G18Y=
+			vs56iiqPagMyd6L+NpWKF7aAAmKqm3PVlw80xScIe0o=
+			</data>
+		</dict>
+		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C8sEDUsFwnzoLrJiyXp4N/fLRnYTG70bApvJoqzLGIk=
 			</data>
 		</dict>
 		<key>Modules/MapstedLocIntel.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bLZpmdGuTAnt1f0iEq+9xuN1FibiWCGpCWoLuJu9QF8=
+			giENLRU3ckDwUPnbItq4H4WHGxdMQae9xl6kdefngds=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
