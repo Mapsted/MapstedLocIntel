@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedLocIntel
+import Alamofire
+import Alamofire_Synchronous
+import CoreData
+import CoreLocation
+import Foundation
+import Swift
+import UIKit
+@objc public class User : ObjectiveC.NSObject, Foundation.NSCoding {
+  public init(userId: Swift.String?)
+  @objc required convenience public init(coder aDecoder: Foundation.NSCoder)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocIntel : ObjectiveC.NSObject {
+  public static let shared: MapstedLocIntel.LocIntel
+  public func initialize(withLicenceId licenceId: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  public func enableLogging(enable: Swift.Bool)
+  public func setUser(user: MapstedLocIntel.User)
+  public func requestLocation()
+  public func start()
+  public func stop()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(Location) public class Location : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Location {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedLocIntel.Location>
+  @objc @NSManaged dynamic public var accuracy: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var latitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var longitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var timestamp: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+}
