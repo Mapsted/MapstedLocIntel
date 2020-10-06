@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedLocIntel
 import Alamofire
 import Alamofire_Synchronous
@@ -12,10 +12,10 @@ import UIKit
   public init(userId: Swift.String?)
   @objc required convenience public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocIntel : ObjectiveC.NSObject {
+@objc public class LocIntel : ObjectiveC.NSObject {
   public static let shared: MapstedLocIntel.LocIntel
   public func initialize(withLicenceId licenceId: Swift.String, completion: @escaping (Swift.Bool) -> ())
   public func enableLogging(enable: Swift.Bool)
@@ -25,7 +25,7 @@ import UIKit
   public func stop()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(Location) public class Location : CoreData.NSManagedObject {
+@objc(Location) public class Location : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
