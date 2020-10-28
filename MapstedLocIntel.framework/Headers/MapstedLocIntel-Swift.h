@@ -201,6 +201,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("ExternalPointEntity")
+@interface ExternalPointEntity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ExternalPointEntity (SWIFT_EXTENSION(MapstedLocIntel))
+@property (nonatomic) double accuracy;
+@property (nonatomic, copy) NSString * _Nullable dataSource;
+@property (nonatomic) int32_t floorId;
+@property (nonatomic) double latitude;
+@property (nonatomic) double longitude;
+@property (nonatomic) int64_t unix_s;
+@end
+
 
 /// An object that encapsulates properties and methods inside the Mapsted Location Intelligence SDK
 SWIFT_CLASS("_TtC15MapstedLocIntel8LocIntel")
@@ -209,21 +227,21 @@ SWIFT_CLASS("_TtC15MapstedLocIntel8LocIntel")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
 
-SWIFT_CLASS_NAMED("Location")
-@interface Location : NSManagedObject
+SWIFT_CLASS_NAMED("LocationEntity")
+@interface LocationEntity : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface Location (SWIFT_EXTENSION(MapstedLocIntel))
+@interface LocationEntity (SWIFT_EXTENSION(MapstedLocIntel))
 @property (nonatomic) double accuracy;
 @property (nonatomic) double latitude;
 @property (nonatomic) double longitude;
 @property (nonatomic, copy) NSDate * _Nullable timestamp;
 @end
+
+
 
 @class NSCoder;
 

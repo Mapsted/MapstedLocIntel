@@ -15,9 +15,16 @@ import UIKit
   @objc override dynamic public init()
   @objc deinit
 }
+extension NSManagedObject {
+  convenience public init(context: CoreData.NSManagedObjectContext)
+}
+extension Double {
+  public func toLong() -> Swift.Int64
+}
 @objc public class LocIntel : ObjectiveC.NSObject {
   public static let shared: MapstedLocIntel.LocIntel
   public func initialize(withLicenceId licenceId: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  public func onExternalPositionUpdate(tag: Swift.String, floorId: Swift.Int, lat: Swift.Double, lon: Swift.Double, accuracy: Swift.Float, timeInSeconds: Swift.Int64)
   public func enableLogging(enable: Swift.Bool)
   public func setUser(user: MapstedLocIntel.User)
   public func requestLocation()
@@ -25,12 +32,43 @@ import UIKit
   public func stop()
   @objc deinit
 }
-@objc(Location) public class Location : CoreData.NSManagedObject {
+@objc(ExternalPointEntity) public class ExternalPointEntity : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
-extension Location {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedLocIntel.Location>
+extension ExternalPointEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedLocIntel.ExternalPointEntity>
+  @objc @NSManaged dynamic public var accuracy: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dataSource: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var floorId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var latitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var longitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var unix_s: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+}
+@objc(LocationEntity) public class LocationEntity : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension LocationEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedLocIntel.LocationEntity>
   @objc @NSManaged dynamic public var accuracy: Swift.Double {
     @objc get
     @objc set
